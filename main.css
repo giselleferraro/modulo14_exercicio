@@ -1,0 +1,90 @@
+body{
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar,
+footer {
+    background-color: #d8f8e1;
+    color: #fa9d93;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color:#fcb7af;
+    color:#fff;
+}
+
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-brinquedos .nav-link.active:hover {
+    color:#93adf7;
+}
+
+.navbar-toggler{
+    background-color: #ffeae6;
+}
+
+.section-title{
+    font-family: "Gochi Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #fa9d93;
+}
+
+.section-title-2{
+    font-family: "Gochi Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #93adf7;
+}
+
+.section-title-2 span{
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #93adf7;
+}
+
+.section-title span {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fa9d93;
+}
+
+
+#nossa-loja, #papelaria{
+    background-color: #ffeae6;
+}
+
+.text-colored{
+    color:#fa9d93
+}
+
+.nav-brinquedos .nav-link.active,
+#contato button{
+    background-color: #d8f8e1;
+    color:#93adf7
+}
+
+.nav-brinquedos .nav-link:hover{
+    color: #93adf7
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
+}

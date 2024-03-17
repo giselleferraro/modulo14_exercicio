@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Gochi+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-1"><span class="fs-3">Brinc</span>Art</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#nossa-loja" class="nav-link">
+                            <i class="bi bi-shop-window"></i>
+                            Nossa loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#brinquedos" class="nav-link">
+                            <i class="bi bi-rocket-takeoff"></i>
+                            Brinquedos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#papelaria" class="nav-link">
+                            <i class="bi bi-paperclip"></i>
+                            Itens de papelaria
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-telephone"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="nossa-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/brinquedos.jpg" alt="Conjunto de brinquedos">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/papelaria1.png" alt="Itens de papelaria">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/brinquedos_2.jpg" alt="Conjunto de brinquedos">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <sapan class="carousel-control-prev-icon"></sapan>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <sapan class="carousel-control-next-icon"></sapan>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/loja.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno da loja">
+                        </div>
+                        <div class="col md-7 mt-3 mt-md-0">
+                            <h2 class="section-title-2"> <span>Sobre a </span>nossa loja</h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus sit, vel sed nobis aliquid consequatur blanditiis illum accusamus, hic numquam sequi vitae quisquam quam aspernatur esse placeat cum laborum! Consectetur!
+                            </p>
+                            <p>
+                                Aqui podemos encontrar:
+                            </p>
+                            <ul>
+                                <li>Brinquedos para todas as idades</li>
+                                <li>Os mais divertidos itens de papelaria</li>
+                                <li>Cartões de presentes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="brinquedos" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        <span>Nossos</span> brinquedos
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-brinquedos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bonecas" class="fw-bold text-start nav-link text-colored active">Bonecas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#carros" class="fw-bold text-start nav-link text-colored ">Carros</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#tecnologia" class="fw-bold text-start nav-link text-colored ">Tecnologia</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebes" class="fw-bold text-start nav-link text-colored">Para bebês</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bonecas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brinquedo/boneca1.jpg"/>
+                                        <h5 class="text-colored fw-bold mt-2">Boneca</h5>
+                                        <p>
+                                            R$ 49,90
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brinquedo/boneca 2.jpg"/>
+                                        <h5 class="text-colored fw-bold mt-2">Boneca de pano</h5>
+                                        <p>
+                                            R$ 79,90
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brinquedo/boneca1.jpg"/>
+                                        <h5 class="text-colored fw-bold mt-2">Boneca</h5>
+                                        <p>
+                                            R$ 49,90
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brinquedo/boneca 2.jpg"/>
+                                        <h5 class="text-colored fw-bold mt-2">Boneca de pano</h5>
+                                        <p>
+                                            R$ 79,90
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brinquedo/boneca1.jpg"/>
+                                        <h5 class="text-colored fw-bold mt-2">Boneca</h5>
+                                        <p>
+                                            R$ 49,90
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brinquedo/boneca 2.jpg"/>
+                                        <h5 class="text-colored fw-bold mt-2">Boneca de pano</h5>
+                                        <p>
+                                            R$ 79,90
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="carros">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/brinquedo/carro_policia.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Carro polícia</h5>
+                                        <p>
+                                            R$ 34,90
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brinquedo/trator.jpg"/>
+                                        <h5 class="text-colored fw-bold mt-2">Trator</h5>
+                                        <p>
+                                            R$85,90
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/brinquedo/carro_policia.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Carro polícia</h5>
+                                        <p>
+                                            R$ 34,90
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brinquedo/trator.jpg"/>
+                                        <h5 class="text-colored fw-bold mt-2">Trator</h5>
+                                        <p>
+                                            R$85,90
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/brinquedo/carro_policia.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Carro polícia</h5>
+                                        <p>
+                                            R$ 34,90
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brinquedo/trator.jpg"/>
+                                        <h5 class="text-colored fw-bold mt-2">Trator</h5>
+                                        <p>
+                                            R$85,90
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tecnologia">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brinquedo/tablet.jpg"/>
+                                        <h5 class="text-colored fw-bold mt-2">Tablet</h5>
+                                        <p>
+                                            R$ 429, 90
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brinquedo/videogameportatil.jpg"/>
+                                        <h5 class="text-colored fw-bold mt-2">Video game portátil</h5>
+                                        <p>
+                                            R$ 199,90
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brinquedo/tablet.jpg"/>
+                                        <h5 class="text-colored fw-bold mt-2">Tablet</h5>
+                                        <p>
+                                            R$ 429, 90
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brinquedo/videogameportatil.jpg"/>
+                                        <h5 class="text-colored fw-bold mt-2">Video game portátil</h5>
+                                        <p>
+                                            R$ 199,90
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brinquedo/tablet.jpg"/>
+                                        <h5 class="text-colored fw-bold mt-2">Tablet</h5>
+                                        <p>
+                                            R$ 429, 90
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brinquedo/videogameportatil.jpg"/>
+                                        <h5 class="text-colored fw-bold mt-2">Video game portátil</h5>
+                                        <p>
+                                            R$ 199,90
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brinquedo/mordedor.jpg"/>
+                                        <h5 class="text-colored fw-bold mt-2">Mordedor</h5>
+                                        <p>
+                                            R$ 24,90
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brinquedo/chocalho.jpg"/>
+                                        <h5 class="text-colored fw-bold mt-2">Chocalho</h5>
+                                        <p>
+                                            R$ 65,90
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brinquedo/mordedor.jpg"/>
+                                        <h5 class="text-colored fw-bold mt-2">Mordedor</h5>
+                                        <p>
+                                            R$ 24,90
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brinquedo/chocalho.jpg"/>
+                                        <h5 class="text-colored fw-bold mt-2">Chocalho</h5>
+                                        <p>
+                                            R$ 65,90
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brinquedo/mordedor.jpg"/>
+                                        <h5 class="text-colored fw-bold mt-2">Mordedor</h5>
+                                        <p>
+                                            R$ 24,90
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/brinquedo/chocalho.jpg"/>
+                                        <h5 class="text-colored fw-bold mt-2">Chocalho</h5>
+                                        <p>
+                                            R$ 65,90
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="papelaria" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title-2 text-center"><span>Itens de </span>papelaria</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/volta_as_aulas.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title-2 fs-4">
+                            <i class="bi bi-backpack"></i>
+                            Kit volta as aulas</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus amet incidunt iusto beatae quaerat neque, ratione distinctio recusandae quas quae molestias? Veritatis aut quae saepe nihil doloremque optio tenetur dolorem.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/escritorio.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title-2 fs-4">
+                            <i class="bi bi-newspaper"></i>
+                            Material de escritório</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus amet incidunt iusto beatae quaerat neque, ratione distinctio recusandae quas quae molestias? Veritatis aut quae saepe nihil doloremque optio tenetur dolorem.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/papelaria_criativa.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title-2 fs-4">
+                            <i class="bi bi-pencil-fill"></i>
+                            Papelaria criativa</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus amet incidunt iusto beatae quaerat neque, ratione distinctio recusandae quas quae molestias? Veritatis aut quae saepe nihil doloremque optio tenetur dolorem.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center"><span>Fale</span> conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div> 
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook section-title-2"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-2 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-instagram section-title-2"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp section-title-2"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereços
+                            </h3>
+                            <p>
+                                Rua Exercício Modulo nº 14 - Centro, Petrópolis RJ
+                            </p>
+                            <p>
+                                Rua EBAC nº 100 - Centro, Petrópolis RJ
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="navbar navbar-expand-lg sticky-top p-4" >
+            <div class="container">
+                <p>
+                    &copy; BrincArt | Brinquedos e itens de papelaria - Todos os direitos reservados - 2024
+                </p>
+                <p>
+                    Produzido por Giselle Ferraro
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
